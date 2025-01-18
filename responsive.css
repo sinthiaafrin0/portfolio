@@ -1,0 +1,77 @@
+/* @media (max-width:257px) {
+    .slider-section{
+    background: url(./Img/personal.png) top center !important;
+    background-size: cover !important;
+    }
+    .slider-content {
+        width: 450px !important;
+    }
+    .contact {
+        height: 45vh !important;
+    }
+    .slider-content-flex{
+        height: 36vh !important;
+    }
+} */
+
+
+/* Medium Devices (Tablets, Small Laptops) */
+@media (min-width: 250px) and (max-width: 992px) {
+    ul.navbar-nav.ml-auto.header-menu {
+        background: #f6f6f6;
+        width: 138px !important;
+    }
+    button.navbar-toggler {
+        position: relative;
+    }
+    .header-button {
+        position: absolute;
+        margin-bottom: 64% !important;
+        margin-left: 47% !important;
+    }
+    ul.header-menu li ul{
+        margin-top: -25px !important;
+        margin-left: -216px !important;
+    }
+    .slider-section{
+        background: url(./Img/personal.png) top center !important;
+        background-size: cover !important;
+    }
+    .slider-content {
+        width: 400px !important;
+    }
+    .slider-content-flex{
+        height: 40vh !important;
+    }
+    .contact {
+        height: 40vh !important;
+    }
+}
+
+  
+/* Large Devices (Laptops, Desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    ul.header-menu li a {
+        padding: 8px 10px !important;
+        font-size: 16px !important;
+    }
+    .main-header .person h2{
+        font-size: 35px !important   ;
+    }
+    .feature-item{
+        height: 625px !important;
+    }
+    .skill-item{
+        height: 540px !important;
+    }
+}
+
+/* Contact */
+@media (max-width) {
+    .contact-inputs{
+        width:80vw
+    }
+    .contact-right{
+        display: none;
+    }
+}
